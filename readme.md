@@ -2,9 +2,10 @@
 
 This repo contains a container-ready implementation of the iconic Spring Petclinic application. Specifically, this code is useful with the OpenShift Source-to-Image (s2i) technology.
 
-There are two implementations available:
+There are three implementations available:
 1. Localhost, using the docker runtime and the local machine  
 1. OpenShift, using an OpenShift cluster
+1. CodeReady Workspaces: start a workspace on Developer Sandbox for OpenShift [![Contribute](factory-contribute.svg)](https://codeready-codeready-workspaces-operator.apps.sandbox.x8i5.p1.openshiftapps.com/dashboard/#/load-factory/?url=https://github.com/sspeiche/spring-petclinic&policies.create=peruser) 
 ## Localhost Implementation
 
 ### Prerequisite
